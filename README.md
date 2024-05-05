@@ -1,23 +1,12 @@
 ![banner](https://raw.githubusercontent.com/tomfran/typo/main/images/banner-light.png)
 
-# Typo, a Hugo theme.
+# Gibson, a Hugo theme.
 
-Typo is a theme backed by simplicity, as you can see in the screenshots below. The goal was to have a website centered around content and nothing more.
+Gibson is a fork of [typo](/tomfran/typo) focused on a "web-story" (like webcomics, but for longform stories)
 
 [![hugo-typo](https://img.shields.io/badge/hugo_themes-@typo-red)](https://themes.gohugo.io/themes/typo/)
 [![GitHub Release](https://img.shields.io/github/v/release/tomfran/typo)](https://github.com/tomfran/typo/releases/latest)
 [![last-commit](https://img.shields.io/github/last-commit/tomfran/typo)](https://github.com/tomfran/typo/commits/)
-
-**Homepage**
-
-![1](https://raw.githubusercontent.com/tomfran/typo/main/images/1.png)
-
-**Article**
-
-![2](https://raw.githubusercontent.com/tomfran/typo/main/images/2.png)
-
-![3](https://raw.githubusercontent.com/tomfran/typo/main/images/3.png)
-
 ---
 
 **Table of content**
@@ -43,14 +32,13 @@ Typo is a theme backed by simplicity, as you can see in the screenshots below. T
 
 To receive updates, add the theme as a submodule: 
 ```
-git submodule add --depth=1 git@github.com:tomfran/typo.git themes/typo
+git submodule add --depth=1 git@github.com:indrora/gibson.git themes/gibson
 ```
 
 Otherwise, you can clone the repo and copy it manually to your theme folder.
 
 You then need to set typo as your theme in your [config file](#32-hugotoml).
 
-You can find a repo using this theme [here](https://github.com/tomfran/blog).
 
 ## 2 Features
 

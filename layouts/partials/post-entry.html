@@ -6,13 +6,9 @@
     {{ end }}
 
 
-    <p class="line-date">{{ .Date.Format $dateFormat }} </p>
+    <p class="line-date">{{.Params.Episode}}</p>
 
     <div>
         <p class="line-title"> <a href="{{ .RelPermalink }}">{{ .Title }}</a></p>
-
-        {{ if .Site.Params.listSummaries }}
-        <p class="line-summary"> {{ .Summary }} </p>
-        {{ end }}
     </div>
 </div>
